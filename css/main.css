@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+  height: 18vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(50, 140, 143, 0.7);
+  border-bottom: 2px solid #fff;
+}
+
+.logo {
+  height: 18vh;
+}
+
+.links-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  width: 40%;
+  height: 50px;
+}
+
+.nav-link {
+  font-size: 1.2em;
+  color: #EDEDED;
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+.nav-link:hover {
+  /* text-decoration: underline; */
+  border-bottom: 2px solid #fff;
+  padding-bottom: 20px;
+}
+
+.section {
+  width: 100%;
+  min-height: 93vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #fff;
+}
+
+.about-div {
+  background-image: linear-gradient(to bottom, rgba(50, 140, 143, 0.7), rgba(40, 180, 133, 0.7));
+}
+
+h1 {
+  color: white;
+}
+
+.about-h1 {
+  padding-bottom: 40px;
+}
+
+.about-p {
+  color: white;
+  text-align: center;
+  width: 65%;
+  font-size: 1.5em;
+  line-height: 1.75;
+}
+
+.projects-div {
+  background-color: rgba(40, 180, 133, 0.7);
+}
+
+.project {
+  width: 75%;
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: black;
+}
+
+.skills-div {
+  background-image: linear-gradient(to top, rgba(50, 140, 143, 0.7), rgba(40, 180, 133, 0.7));
+}
+
+.footer-div {
+  height: 18vh;
+  background-color: rgba(50, 140, 143, 0.7);
+}
