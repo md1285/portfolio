@@ -379,8 +379,12 @@ h2 {
     font-size: 18px;
   }
 
-  .h1 {
+  /* .h1 {
     margin-top: 40px;
+  } */
+
+  .button {
+    margin: 0 5px;
   }
 
   .footer-p {
