@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/main.css">
   <link rel="icon" type="image/png" href="./imgs/favicon.png">
   <title>Mike Dwyer - Developer</title>
@@ -17,31 +18,46 @@
       <a href="http://mikedwyer.dev">
         <img src="./imgs/logo_transparent.png" class="logo" alt="logo">
       </a>
-      <!-- <div>Logo</div> -->
-        <div class="header-links-wrapper">
-          <a class="nav-link" href="#about">About</a>
-          <a class="nav-link" href="#projects">Projects</a>
-          <a class="nav-link" href="#skills">Skills</a>
-          <a class="nav-link nav-link-last" href="#contact">Contact</a>
-        </div>
+      <div class="header-links-wrapper" id="nav-wrapper-responsive">
+        <a class="hamburger-nav-icon" href="#" onclick="open()"><i class="fa fa-bars"></i></a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link nav-link-last" href="#contact">Contact</a>
+      </div>
     </nav>
   </header>
   <main>
-    <div id="about" class="about-div">
-      <h1 class="about-h1">Mike Dwyer</h1>
-      <p class="about-p">I’m a full-stack developer with a background in media and improvisation. I love working on creative and challenging projects that make the world a more interesting place. I have a strong focus on quality and efficiency, and am especially adept at communication and collaboration.</p>
+    <div id="about" class="about-div section">
+      <h1 class="about-h1 h1">Mike Dwyer</h1>
+      <p class="about-p">I’m a full-stack developer with a background in media and improvisation. I love working on
+        creative and challenging projects that make the world a more interesting place. I have a strong focus on quality
+        and efficiency, and am especially adept at communication and collaboration.</p>
       <div></div>
     </div>
-    <div id="projects" class="projects-div">
-      <h1 class="projects-h1">Projects</h1>
-      <p class="projects-p">Here are some of my recent projects.</p>
-
+    <div id="projects" class="section projects-div">
+      <h1 class="projects-h1 h1">Projects</h1>
       <div class="projects-wrapper">
         <div class="project project-1">
           <div class="project-image project-1-image"></div>
           <div class="project-text">
             <div class="project-text-inner">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum facilis vitae ullam? Nihil natus itaque eos sequi quos blanditiis quis praesentium quaerat non obcaecati autem, commodi hic aliquid quas ipsam.
+              <div>
+                <p class="project-text-p">
+                  Based on the classic carnival game, Whack-A-Mole features three exhilarating levels of mole-whacking
+                  fun! Click the moles as they pop up to whack them with your mallet.
+                </p>
+                <p class="project-text-p">
+                    Every mole you hit adds one to your score, but be careful, because the moles will burrow back down if you don't whack them in time, and the game speeds up as the timer progresses!
+                  </p>
+                <p class="project-text-p">
+                  Built using HTML5, CSS3 (including Flexbox and Grid), and jQuery.
+                </p>
+              </div>
+              <p class="btn-p">
+                <a class="btn" href="https://github.com/md1285/whack-a-mole/">GitHub</a>
+                <a class="btn" href="https://md1285.github.io/whack-a-mole/ ">View Project</a>
+              </p>
             </div>
           </div>
         </div>
@@ -49,7 +65,25 @@
           <div class="project-image project-2-image"></div>
           <div class="project-text">
             <div class="project-text-inner">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit cumque ipsam repellat corrupti quo repellendus iste sequi quae, qui nihil, fugit quisquam labore recusandae temporibus. Dolores reprehenderit beatae delectus exercitationem.
+              <div>
+                <p class="project-text-p">
+                  Welcome to Tag, a version control application for creative collaboration!
+                </p>
+                <p class="project-text-p">
+                  With Tag, you can collaborate on articles, scripts, stories and more with as many collaborators as you
+                  like. Create project, suggest edits, and approve or deny your collaborators' additions to your
+                  projects.
+                </p>
+                <p class="project-text-p">
+                  Built using HTML, CSS, JavaScript, Node.js, jQuery, MongoDB, Mongoose, Express.js, Embedded
+                  JavaScript,
+                  Materialize, Oauth2, and Passport.js.
+                </p>
+              </div>
+              <p class="btn-p">
+                <a class="btn" href="https://github.com/md1285/tag/">GitHub</a>
+                <a class="btn" href="https://tag-app-md.herokuapp.com/">View Project</a>
+              </p>
             </div>
           </div>
         </div>
@@ -57,7 +91,24 @@
           <div class="project-image project-3-image"></div>
           <div class="project-text">
             <div class="project-text-inner">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio nisi in quas, quam dolore laborum saepe impedit ex numquam aspernatur perspiciatis optio ipsum vero blanditiis magnam nihil architecto. Quia, sunt.
+              <div>
+                <p class="project-text-p">
+                  drinkOn is a happy hour finding application built to encourage users to submit up-to-date information
+                  on menus, hours, and drink specials.
+                </p>
+                <p class="project-text-p">
+                  Working as part of a three-person team using Git and Github for version control, I was responsible for
+                  relational database modeling using PostgreSQL, and implementing CRUD functionality allowing users to
+                  upload data, suggest edits, and vote up or down other users’ suggestions.
+                </p>
+                <p class="project-text-p">
+                  Built using HTML, CSS, Python, Django, Amazon Web Services, PostgreSQL, and the Google Places API.
+                </p>
+              </div>
+              <p class="btn-p">
+                <a class="btn" href="https://github.com/md1285/drinkOn/">GitHub</a>
+                <a class="btn" href="https://drinkon-wdi.herokuapp.com/">View Project</a>
+              </p>
             </div>
           </div>
         </div>
@@ -65,14 +116,40 @@
           <div class="project-image project-4-image"></div>
           <div class="project-text">
             <div class="project-text-inner">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio nisi in quas, quam dolore laborum saepe impedit ex numquam aspernatur perspiciatis optio ipsum vero blanditiis magnam nihil architecto. Quia, sunt.
+              <div>
+                <p class="project-text-p">
+                  Welcome to Decipher, a one-of-a-kind interactive chat experience!
+                </p>
+                <p class="project-text-p">
+                  Connect with friends to send scrambled messages, and crack the two-digit code on the bottom of your screen to decipher the hidden messages.
+                </p>
+                <p class="project-text-p">
+                  Decipher is a full-stack MERN application built using MongoDB, Express, React, Node, and React Router. Socket.io assisted with real-time chat functionality, and jsonwebtoken and brcrypt Node modules were used to implement token-based authentication.
+                </p>
+              </div>
+              <p class="btn-p">
+                <a class="btn" href="https://github.com/md1285/tag">GitHub</a>
+                <a class="btn" href="https://tag-app-md.herokuapp.com/">View Project</a>
+              </p>
             </div>
           </div>
+
         </div>
       </div>
 
     </div>
-    <div id="skills" class="section skills-div">Skills</div>
+    <div id="skills" class="section skills-div">
+      <h1 class="h1">
+        Skills
+      </h1>
+      <div class="skills-wrapper">
+        <div class="skill"><img src="./imgs/html5.png" class="skill-img" alt="HTML5 logo">HTML5</div>
+        <div class="skill"><img src="./imgs/CSS3.png" class="skill-img" alt="CSS3 logo">CSS3</div>
+        <div class="skill"><img src="./imgs/javascript.png" class="skill-img" alt="JavaScript logo">JavaScript</div>
+        <div class="skill"><img src="./imgs/node.png" class="skill-img" alt="Node logo">Node.js</div>
+        <div class="skill"><img src="./imgs/react.png" class="skill-img" alt="React logo">React</div>
+      </div>
+    </div>
   </main>
   <footer id="contact" class="footer-div">
     <p class="footer-p">Contact</p>
