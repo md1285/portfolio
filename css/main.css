@@ -15,7 +15,7 @@ main {
 
 .navbar {
   width: 100%;
-  height: 12vh;
+  height: 14vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,7 +45,7 @@ main {
   font-size: 1.2em;
   color: #EDEDED;
   text-decoration: none;
-  padding-top: 20px;
+  padding-top: 10px;
   font-weight: 100;
 }
 
@@ -203,7 +203,7 @@ h1 {
 }
 
 .skills-div {
-  min-height: 200px;
+  min-height: 700px;
 }
 
 .skills-wrapper {
@@ -221,10 +221,16 @@ h1 {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin: 15px; 
 }
 
 .skill-img {
   height: 60px;
+}
+
+.mat-skill-img {
+  width: 60px;
+  height: 40px
 }
 
 h2 {
@@ -236,11 +242,11 @@ h2 {
 }
 
 .footer-div {
-  height: 25vh;
+  height: 700px;
   background-color: rgba(50, 140, 143, 0.7);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -250,8 +256,8 @@ h2 {
 }
 
 .footer-img-wrapper {
-  height: 45px;
-  width: 45px;
+  height: 65px;
+  width: 65px;
   border: 2px solid #ffffff;
   border-radius: 100%;
   display: flex;
@@ -270,16 +276,24 @@ h2 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-bottom: 150px;
+}
+
+.footer-p {
+  font-size: 18px;
 }
 
 .footer-img {
-  height: 22.5px;
+  height: 42.5px;
 }
 
 .footer-img-li {
-  height: 20px;
+  height: 35px;
 }
 
+.contact-h1 {
+  padding-top: 150px;
+}
 
 
 
@@ -300,6 +314,10 @@ h2 {
   .project {
     margin: 20px 5px;
     width: 90%;
+  }
+
+  .skills-wrapper {
+    width: 75%;
   }
 }
 
@@ -352,5 +370,11 @@ h2 {
     margin-top: 40px;
   }
 
+  .footer-p {
+  width: 85%;  
+}
   
+  .skills-wrapper {
+    width: 85%;
+  }
 }
