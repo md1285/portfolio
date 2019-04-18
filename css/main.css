@@ -6,6 +6,10 @@
   color: white;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -21,7 +25,16 @@ main {
   align-items: center;
   background-color: rgba(50, 140, 143, 0.7);
   border-bottom: 2px solid #fff;
-  /* position: fixed; */
+  position: fixed;
+  z-index: 2;
+}
+
+.navbar-lower{
+  width: 100%;
+  height: 14vh;
+  background-color: white;
+  position: fixed;
+  z-index: 1;
 }
 
 
@@ -75,12 +88,10 @@ main {
   border-bottom: 2px solid #fff;
 }
 
-h1 {
-  color: white;
-}
 
 .h1 {
-  margin-top: 80px;
+  color: white;
+  margin-top: 16vh;
   letter-spacing: 5px;
 }
 
@@ -170,15 +181,17 @@ h1 {
   font-size: 18px;
 }
 
-.btn {
+.button {
   text-decoration: none;
-  border: 1px solid white;
+  border: 2px solid white;
   padding: 5px;
+  margin: 0 10px;
   border-radius: 5px;
+  text-emphasis: 900;
 }
 
-.btn:hover {
-  border: 2px solid white;
+.button:hover {
+  border: 3px solid white;
 }
 
 .btn-p {
